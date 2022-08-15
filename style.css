@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #2f4f4f;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #666;
+  }
+  .active {
+    background-color: #4c7aaf;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  .content
+  {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .element
+  {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .heeader
+  {
+    background-color: #3cb371;
+    height: 50vh;
+    padding: 30px;
+    text-align: center;
+  }
+  img
+  {
+    height: 20vh
+  }
